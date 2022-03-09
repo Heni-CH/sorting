@@ -14,3 +14,9 @@ BEGIN
     A[j+1]:=value;
     END_FOR
 END
+ALGORITHM insertion
+VAR
+    tab:ARRAY_OF INTEGER;
+BEGIN
+    cardsexample(tab);
+END
